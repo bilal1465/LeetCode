@@ -23,3 +23,20 @@ def longestCommonPrefix(strs):
     return prefix
 
 print(longestCommonPrefix(["dog","racecar","car"]))
+
+# first_item = first item in strs
+# current_prefix = set to index 0 of first_item
+# counter = set to 0 
+
+# While True:
+#     FOR each item in STRS
+#         if item slice index 0 to counter is equal to first_item slice index 0 to counter:
+#             continue
+#         else:
+#             break
+#     current_prefix = first_item[0:counter]
+#     counter += 1   
+    
+
+
+# return current_prefix
